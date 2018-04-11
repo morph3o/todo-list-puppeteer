@@ -5,7 +5,6 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "faker": "4.1.0",
     "jest": "22.4.3",
     "jest-cli": "22.4.3",
     "prop-types": "15.6.1",
