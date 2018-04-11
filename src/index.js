@@ -38,7 +38,7 @@ class App extends Component {
   render() {
     return (
       <div style={styles}>
-        <h1>Todo List</h1>
+        <h1 className="todo-title">Todo List</h1>
         <TodoList todos={this.state.todos} onClick={this.handleStatusChange} />
       </div>
     );

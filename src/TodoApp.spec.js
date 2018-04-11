@@ -21,5 +21,13 @@ describe("on page load", () => {
       },
       userAgent: ""
     });
+
+    await page.goto("https://jnn9867qy.codesandbox.io/");
+
+    const html = await page.$eval(".todo-title", e => e.innerHTML);
+
+    expect(html).toBe("Todo List");
+
+    browser.close();
   });
 });
